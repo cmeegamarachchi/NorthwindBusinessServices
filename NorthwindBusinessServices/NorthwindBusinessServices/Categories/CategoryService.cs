@@ -7,7 +7,7 @@ namespace NorthwindBusinessServices.Categories
 {
     public class CategoryService : ICategoryService
     {
-        private IUnitOfWork _uow;
+        private readonly IUnitOfWork _uow;
 
         public CategoryService(IUnitOfWork uow)
         {
