@@ -54,6 +54,9 @@
     <Compile Include="Products\ProductDetails.cs" />
     <Compile Include="Products\ProductsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Suppliers\ISuppliersService.cs" />
+    <Compile Include="Suppliers\SupplierDescription.cs" />
+    <Compile Include="Suppliers\SuppliersService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NorthwindBusinessServices.Core\NorthwindBusinessServices.Core.csproj">
