@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categories\CategoryDescription.cs" />
+    <Compile Include="Categories\CategoryService.cs" />
+    <Compile Include="Categories\ICategoryService.cs" />
     <Compile Include="Products\GetProductsFilter.cs" />
     <Compile Include="Products\IProductsService.cs" />
     <Compile Include="Products\ProductDetails.cs" />
